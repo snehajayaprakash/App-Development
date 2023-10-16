@@ -1,0 +1,30 @@
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  width :40%;
+  height:40%;
+  margin-top: 160px;
+ 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  color: #333;
+}
+.purchasecon{
+  background-size: cover;
+  background-attachment: fixed;
+    background-image: url(dash-down.jpeg);
+   
+  top: 0; 
+  left: 0; 
+	
+  /* Preserve aspet ratio */
+ 
+  position: relative;
+  max-height: 100vh;
+  overflow-y: auto;
+  
+}
